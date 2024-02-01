@@ -1,0 +1,113 @@
+.App-main {
+    background-color: #3E7AF6;
+    min-height: 100vh;
+    display: flex;
+    color: white;
+    padding: 0 120px 0 120px;
+}
+
+.App-main-info {
+    background-color: #3E7AF6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    text-align: start;
+}
+
+.App-main-h1 {
+    font-size: 88px;
+    line-height: 110px;
+    margin: 28px 0 0 0;
+    padding: 0;
+}
+
+.App-main-image {
+    filter: invert(100%);
+    height: 38px;
+}
+
+.App-main-links {
+    display: flex;
+}
+
+.App-main-link-div {
+    width: 200px;
+    height: 54px;
+    border: 2px solid #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+p{
+    margin: 0;
+}
+
+.App-main-link-text-div {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.App-main-link-text {
+    font-size: 14px;
+}
+
+.App-main-link-title {
+    margin-top: -5px;
+    font-size: 24px;
+}
+
+.App-main-text {
+    margin-top: 20px;
+    font-size: 22px;
+    width: 630px;
+    font-style: italic;
+}
+
+.App-main-screen {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+
+.App-main-screen-image {
+    height: 630px;
+}
+
+.App-main-logo {
+    height: 100px;
+    margin-left: -30px;
+}
+
+.App-main-logo-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 700;
+    margin-left: -10px;
+    margin-bottom: 10px;
+}
+
+.App-main-logo-div {
+    display: flex;
+    align-items: center;
+}
+
+.App-bottom {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.App-bottom-text {
+    font-size: 20px;
+}
