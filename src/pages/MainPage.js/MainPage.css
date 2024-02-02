@@ -1,10 +1,3 @@
-.App-main {
-    background-color: #3E7AF6;
-    min-height: 100vh;
-    display: flex;
-    color: white;
-    padding: 0 120px 0 120px;
-}
 
 .App-main-info {
     background-color: #3E7AF6;
@@ -73,10 +66,9 @@ p{
 .App-main-screen {
     display: flex;
     height: 100vh;
-    width: 100%;
     justify-content: center;
     align-items: center;
-    margin-left: 250px;
+    margin-left: 20%;
 }
 
 .App-main-screen-image {
@@ -110,4 +102,191 @@ p{
 
 .App-bottom-text {
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1190px) {
+    .App-main {
+        padding: 0 80px 0 80px;
+    }
+
+    .App-main-screen-image {
+        height: 520px;
+    }
+}
+
+@media only screen and (max-width: 1285px) {
+    .App-main-screen {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    .App-main {
+        padding: 0 50px 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    .App-main-screen {
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .App-main-h1 {
+        font-size: 66px;
+        line-height: 90px;
+        margin: 26px 0 0 0;
+    }
+
+    .App-main-image {
+        height: 33px;
+    }
+
+    .App-main-link-div {
+        width: 180px;
+        height: 48px;
+        padding-left: 11px;
+        margin-right: 12px;
+        margin-top: 14px;
+    }
+
+    .App-main-link-text {
+        font-size: 11px;
+    }
+
+    .App-main-link-title {
+        margin-top: -5px;
+        font-size: 20px;
+    }
+
+    .App-main-text {
+        margin-top: 18px;
+        font-size: 18px;
+        width: 500px;
+        font-style: italic;
+    }
+
+    .App-main-screen-image {
+        height: 500px;
+    }
+    
+    .App-main-logo {
+        height: 80px;
+        margin-left: -30px;
+    }
+    
+    .App-main-logo-text {
+        font-size: 30px;
+    }
+    
+    .App-bottom {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        width: 400px;
+    }
+    
+    .App-bottom-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 845px) {
+    .App-main-screen {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .App-main {
+        min-height: 100vh;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .App-main-info {
+        background-color: #3E7AF6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        text-align: start;
+        margin: 0 4%;
+    }
+    
+    .App-main-h1 {
+        font-size: 60px;
+        line-height: 80px;
+        margin: 8% 0 0 0;
+        padding: 0;
+    }
+
+    .App-main-text {
+        margin-top: 18px;
+        font-size: 18px;
+        width: 100%;
+        font-style: italic;
+    }
+
+    .App-bottom {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .App-main {
+        min-height: 100vh;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .App-main-info {
+        background-color: #3E7AF6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+        text-align: start;
+        margin: 0 6%;
+    }
+    
+    .App-main-h1 {
+        font-size: 56px;
+        line-height: 70px;
+        margin: 8% 0 0 0;
+        padding: 0;
+    }
+
+    .App-main-text {
+        margin-top: 18px;
+        font-size: 18px;
+        width: 100%;
+        font-style: italic;
+    }
+
+    .App-bottom {
+        width: 100%;
+    }
+
+    .App-main-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .App-main-link-div {
+        width: 70%;
+    }
+
+    .App-bottom {
+        margin-top: 10px;
+    }
+    
+    .App-main-logo-div {
+        margin-left: 10px;
+    }
 }

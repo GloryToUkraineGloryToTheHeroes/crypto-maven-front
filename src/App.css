@@ -2,3 +2,10 @@
   text-align: center;
 }
 
+.App-main {
+  background-color: #3E7AF6;
+  min-height: 100vh;
+  display: flex;
+  color: white;
+  padding: 0 120px 0 120px;
+}

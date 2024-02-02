@@ -42,7 +42,7 @@ function MainPage() {
             </div>
 
             <div className='App-main-screen'>
-            <img className='App-main-screen-image' src={iPhoneFront} alt='Screen' />
+                <img className='App-main-screen-image' src={iPhoneFront} alt='Screen' />
             </div>
         </div>
     )

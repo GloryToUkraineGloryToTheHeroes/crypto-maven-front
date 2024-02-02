@@ -20,7 +20,7 @@ function DeletePage() {
                 <p className="Delete-main-p Delete-main-p-last">5. Should it be necessary as a security protocol, re-enter your login details.</p>
 
 
-                <div className='App-main-text'>The user account, along with its associated login credentials, email, password, and subscription data, will be permanently deleted.</div>
+                <div className='App-main-text Delete-main-p-text'>The user account, along with its associated login credentials, email, password, and subscription data, will be permanently deleted.</div>
             </div>
         </div>
     )

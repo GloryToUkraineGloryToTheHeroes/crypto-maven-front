@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/main' element={<MainPage />}/>
+        <Route path='/landing' element={<MainPage />}/>
         <Route path='/how-to-delete-account' element={<DeletePage />}/>
-        <Route path='*' element={<Navigate to='/main' />} />
+        <Route path='*' element={<Navigate to='/landing' />} />
       </Routes>
     </div>
   );
